@@ -16,7 +16,7 @@ const indexConfig = {
   external: ['react', 'react/jsx-runtime'],
   plugins: [
     alias({
-      entries: [{ find: '@typebot.io/js', replacement: '../../js' }],
+      entries: [{ find: '@builderhub/typebot-js', replacement: '../../js' }],
     }),
     resolve({ extensions }),
     babel({

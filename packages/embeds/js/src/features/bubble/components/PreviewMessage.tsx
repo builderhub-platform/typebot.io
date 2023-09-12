@@ -48,7 +48,7 @@ export const PreviewMessage = (props: PreviewMessageProps) => {
         {(avatarUrl) => (
           <img
             src={avatarUrl}
-            class="bh-preview-image rounded-full w-8 h-8 object-cover"
+            class="bh-preview-image object-cover"
             alt="Michael Jackson"
             elementtiming={'Michael Jackson'}
             fetchpriority={'high'}

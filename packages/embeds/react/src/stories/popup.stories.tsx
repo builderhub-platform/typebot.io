@@ -1,5 +1,5 @@
 import { Popup } from '../Popup'
-import { open, toggle } from '@typebot.io/js'
+import { open, toggle } from '@builderhub/typebot-js'
 import { leadGenerationTypebot } from './assets/leadGenerationTypebot'
 
 export const Default = () => {
