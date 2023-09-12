@@ -1,5 +1,5 @@
 {
-  "name": "@typebot.io/react",
+  "name": "@builderhub/typebot-react",
   "version": "0.1.26",
   "description": "Convenient library to display typebots on your React app",
   "main": "dist/index.js",

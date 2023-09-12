@@ -1,4 +1,4 @@
-name: Publish @typebot.io/react package to NPM
+name: Publish @builderhub/typebot-react package to NPM
 
 on:
   push:
