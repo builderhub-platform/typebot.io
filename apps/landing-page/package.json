@@ -14,7 +14,7 @@
     "@emotion/react": "11.11.1",
     "@emotion/styled": "11.11.0",
     "@typebot.io/lib": "workspace:*",
-    "@typebot.io/nextjs": "workspace:*",
+    "@typebot.io/nextjs": "0.1.26",
     "@typebot.io/prisma": "workspace:*",
     "@typebot.io/schemas": "workspace:*",
     "aos": "2.3.4",
