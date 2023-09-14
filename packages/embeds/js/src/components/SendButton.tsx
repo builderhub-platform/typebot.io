@@ -1,7 +1,7 @@
 import { isMobile } from '@/utils/isMobileSignal'
 import { splitProps } from 'solid-js'
 import { JSX } from 'solid-js/jsx-runtime'
-import { SendIcon } from './icons'
+import { ConfirmIcon } from './icons'
 import { Button } from './Button'
 import { isEmpty } from '@typebot.io/lib'
 
@@ -17,7 +17,7 @@ export const SendButton = (props: SendButtonProps) => {
     <Button type="submit" {...others}>
       {(isMobile() && !local.disableIcon) ||
       (typeof props.children === 'string' && isEmpty(props.children)) ? (
-        <SendIcon
+        <ConfirmIcon
           class={'send-icon flex ' + (local.disableIcon ? 'hidden' : '')}
         />
       ) : (
