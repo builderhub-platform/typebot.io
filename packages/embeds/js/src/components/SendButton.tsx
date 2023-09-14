@@ -19,6 +19,7 @@ export const SendButton = (props: SendButtonProps) => {
       (typeof props.children === 'string' && isEmpty(props.children)) ? (
         <ConfirmIcon
           class={'send-icon flex ' + (local.disableIcon ? 'hidden' : '')}
+          fill="none"
         />
       ) : (
         props.children

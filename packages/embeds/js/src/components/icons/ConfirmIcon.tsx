@@ -13,7 +13,7 @@ export const ConfirmIcon = (props: JSX.SvgSVGAttributes<SVGSVGElement>) => (
       stroke-linecap="round"
       stroke-linejoin="round"
       stroke-width={3}
-      d="M19 6 9.333 18.5 4 12.184"
+      d="M19 6L9.33333 18.5L4 12.1842"
     />
   </svg>
 )
