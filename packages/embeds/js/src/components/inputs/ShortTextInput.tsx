@@ -18,15 +18,6 @@ export const ShortTextInput = (props: ShortTextInputProps) => {
       onInput={(e) => {
         local.onInput(e.currentTarget.value), e.stopPropagation()
       }}
-      onKeyDown={(e) => {
-        e.stopPropagation()
-      }}
-      onKeyUp={(e) => {
-        e.stopPropagation()
-      }}
-      onKeyPress={(e) => {
-        e.stopPropagation()
-      }}
       {...others}
     />
   )

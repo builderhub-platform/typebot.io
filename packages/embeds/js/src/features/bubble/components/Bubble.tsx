@@ -167,12 +167,15 @@ export const Bubble = (props: BubbleProps) => {
           (props.theme?.placement === 'left' ? ' sm:left-5' : ' sm:right-5')
         }
         onKeyDown={(e) => {
+          if (e.code === 'Enter') return
           e.stopPropagation()
         }}
         onKeyUp={(e) => {
+          if (e.code === 'Enter') return
           e.stopPropagation()
         }}
         onKeyPress={(e) => {
+          if (e.code === 'Enter') return
           e.stopPropagation()
         }}
       >
