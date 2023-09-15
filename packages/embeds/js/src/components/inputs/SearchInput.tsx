@@ -30,7 +30,10 @@ export const SearchInput = (props: Props) => {
         type="text"
         style={{ 'font-size': '16px' }}
         value={value()}
-        onInput={(e) => changeValue(e.currentTarget.value)}
+        onInput={(e) => {
+          changeValue(e.currentTarget.value)
+          e.preventDefault()
+        }}
         {...others}
       />
       <Show when={value().length > 0}>
