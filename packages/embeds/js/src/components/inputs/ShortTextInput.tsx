@@ -16,7 +16,7 @@ export const ShortTextInput = (props: ShortTextInputProps) => {
       type="text"
       style={{ 'font-size': '16px' }}
       onInput={(e) => {
-        local.onInput(e.currentTarget.value), e.preventDefault()
+        local.onInput(e.currentTarget.value), e.stopPropagation()
       }}
       {...others}
     />

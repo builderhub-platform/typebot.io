@@ -32,7 +32,7 @@ export const SearchInput = (props: Props) => {
         value={value()}
         onInput={(e) => {
           changeValue(e.currentTarget.value)
-          e.preventDefault()
+          e.stopPropagation()
         }}
         {...others}
       />

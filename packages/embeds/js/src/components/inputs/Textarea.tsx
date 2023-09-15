@@ -21,7 +21,7 @@ export const Textarea = (props: TextareaProps) => {
       autofocus={!isMobile()}
       onInput={(e) => {
         local.onInput(e.currentTarget.value)
-        e.preventDefault()
+        e.stopPropagation()
       }}
       {...others}
     />
