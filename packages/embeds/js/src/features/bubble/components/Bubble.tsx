@@ -166,6 +166,15 @@ export const Bubble = (props: BubbleProps) => {
             : ' bottom-20') +
           (props.theme?.placement === 'left' ? ' sm:left-5' : ' sm:right-5')
         }
+        onKeyDown={(e) => {
+          e.stopPropagation()
+        }}
+        onKeyUp={(e) => {
+          e.stopPropagation()
+        }}
+        onKeyPress={(e) => {
+          e.stopPropagation()
+        }}
       >
         <Show when={isBotStarted()}>
           <Bot

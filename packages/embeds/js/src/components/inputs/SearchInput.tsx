@@ -34,6 +34,15 @@ export const SearchInput = (props: Props) => {
           changeValue(e.currentTarget.value)
           e.stopPropagation()
         }}
+        onKeyDown={(e) => {
+          e.stopPropagation()
+        }}
+        onKeyUp={(e) => {
+          e.stopPropagation()
+        }}
+        onKeyPress={(e) => {
+          e.stopPropagation()
+        }}
         {...others}
       />
       <Show when={value().length > 0}>
